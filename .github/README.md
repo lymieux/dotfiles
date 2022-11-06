@@ -1,0 +1,6 @@
+<div align="center">
+  <h1>
+    THIS IS A SIMPLE GITHUB PLACEHOLDER FOLDER
+    NOT REQUIRED OR NEEDED FOR ANY FILES
+  </h1>
+</div>
