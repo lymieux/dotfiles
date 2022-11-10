@@ -5,7 +5,7 @@
   <a href="https://github.com/ellerbrock/open-source-badge/"><img alt="Open Source Love" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" /></a>
 </h1>
 
-> A curated list of awesome READMEs
+> A repo for configuration files in ~
 
 ```
 This is a collection of my dotfiles in my home directory. 
