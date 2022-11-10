@@ -1,0 +1,16 @@
+Mods List:
+
+1.19.2:
+3dskinlayers-fabric-1.5.2-mc1.19.1.jar
+Capes-1.4.5+1.19.jar
+continuity-2.0.1+1.19.jar
+fabric-api-0.66.0+1.19.2.jar
+fabric-language-kotlin-1.8.6+kotlin.1.7.21.jar
+indium-1.0.9+mc1.19.2.jar
+iris-mc1.19.2-1.4.0.jar
+lithium-fabric-mc1.19.2-0.10.1.jar
+logical_zoom-0.0.17.jar
+modmenu-4.1.0.jar
+phosphor-fabric-mc1.19.x-0.8.1.jar
+simple-hud-utilities-2.5.2.jar
+sodium-fabric-mc1.19.2-0.4.4+build.18.jar 
