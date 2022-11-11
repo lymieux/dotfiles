@@ -71,7 +71,7 @@ fi
 
 # Sanitize std{in,out,err} because they’ll be shared with untrusted child
 # processes (http://crbug.com/376567).
-exec /dev/null
+exec &>/dev/null
 exec > >(exec cat)
 exec 2> >(exec cat >&2)
 
