@@ -29,16 +29,17 @@ fi
 # detect whether the system xdg utilities are sufficiently new to be likely to
 # work for us by looking for xdg-settings. If we find it, we leave $PATH alone,
 # so that the system xdg utilities (including any distro patches) will be used.
-if ! which xdg-settings &> /dev/null; then
-# Old xdg utilities. Prepend $HERE to $PATH to use ours instead.
-export PATH=”$HERE:$PATH”
-else
-# Use system xdg utilities. But first create mimeapps.list if it doesn’t
-# exist; some systems have bugs in xdg-mime that make it fail without it.
-xdg_app_dir=”${XDG_DATA_HOME:-$HOME/.local/share/applications}”
-mkdir -p “$xdg_app_dir”
-[ -f “$xdg_app_dir/mimeapps.list” ] || touch “$xdg_app_dir/mimeapps.list”
-fi
+
+# if ! which xdg-settings &> /dev/null; then
+# # Old xdg utilities. Prepend $HERE to $PATH to use ours instead.
+# export PATH=”$HERE:$PATH”
+# else
+# # Use system xdg utilities. But first create mimeapps.list if it doesn’t
+# # exist; some systems have bugs in xdg-mime that make it fail without it.
+# xdg_app_dir=”${XDG_DATA_HOME:-$HOME/.local/share/applications}”
+# mkdir -p “$xdg_app_dir”
+# [ -f “$xdg_app_dir/mimeapps.list” ] || touch “$xdg_app_dir/mimeapps.list”
+# fi
 
 # Always use our versions of ffmpeg libs.
 # This also makes RPMs find the compatibly-named library symlinks.
